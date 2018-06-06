@@ -6,6 +6,8 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="/resources/css/style.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
     <title>List Customers</title>
 </head>
 
@@ -18,10 +20,11 @@
 
         <input type="button" value="Add Customer"
                onclick="window.location.href='showFormForAdd'; return false;"
-               class="button button1"
+               class="btn btn-outline-dark"
         />
 
-        <br>        <!--  add our html table here -->
+        <br>  <br>
+        <!--  add our html table here -->
 
         <table>
             <tr>

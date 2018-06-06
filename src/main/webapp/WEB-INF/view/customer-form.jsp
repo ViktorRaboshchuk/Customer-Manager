@@ -12,7 +12,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="/resources/css/style.css" >
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <title>Save Customer</title>
 
 
@@ -20,7 +20,7 @@
 
 <body>
 
-<br>
+
         <h2>CRM - Customer Relationship Manager</h2>
 
 
@@ -51,12 +51,12 @@
 
             </tbody>
         </table>
-<br><br>
-        <input type="submit" value="Save" class="button button1" />
+<br>
+        <input type="submit" value="Save" class="btn btn-outline-dark" />
     </form:form>
 
 
-
+<br>
     <p>
         <a href="${pageContext.request.contextPath}/customer/list">Back to List</a>
     </p>
